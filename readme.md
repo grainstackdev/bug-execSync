@@ -1,0 +1,1 @@
+Reproduces this bug: https://github.com/remy/nodemon/issues/2103

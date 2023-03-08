@@ -26,8 +26,8 @@ console.log('server started on 4000')
 process.on('SIGINT', () => {
   console.log("stopping");
 
-  // stopFails()
-  stopWorks()
+  stopFails()
+  // stopWorks()
   console.log('postgres server stopped')
   process.exit();
 });
