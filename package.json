@@ -1,0 +1,16 @@
+{
+  "name": "bug-execSync",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -e mjs,js,html --watch src/backend/src --exec 'npm run dev'",
+    "dev": "node src/backend/src/localServer.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
